@@ -1,2 +1,2 @@
-# selenium_python
+# Selenium Examples in Python
 Selenium Scripts/Tests
