@@ -28,8 +28,8 @@ def user_auth():
     username=browser.find_element_by_name("ctl00$ContentPlaceHolder1$txtUserName")
     password=browser.find_element_by_name("ctl00$ContentPlaceHolder1$txtPassword")
     submit_btn=browser.find_element_by_id("ContentPlaceHolder1_btnSubmit")
-    username.send_keys("GLEdemo")
-    password.send_keys("summer")
+    username.send_keys("")
+    password.send_keys("")
     submit_btn.click()
 
 
