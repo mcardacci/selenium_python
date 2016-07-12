@@ -19,8 +19,8 @@ def user_auth():
 	username=browser.find_element_by_name("ctl00$PrincipalPanel$loginControl$UserName")
 	password=browser.find_element_by_name("ctl00$PrincipalPanel$loginControl$Password")
 	submit_btn=browser.find_element_by_id("PrincipalPanel_loginControl_LoginButton")
-	username.send_keys("Gabrielm")
-	password.send_keys("obama")
+	username.send_keys("")
+	password.send_keys("")
 	submit_btn.click()
 
 def click_conf_center():

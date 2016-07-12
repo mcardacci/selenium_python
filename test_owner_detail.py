@@ -25,8 +25,8 @@ class OwnerSummaryTest(unittest.TestCase):
    	username=self.browser.find_element_by_name("ctl00$ContentPlaceHolder1$txtUserName")
    	password=self.browser.find_element_by_name("ctl00$ContentPlaceHolder1$txtPassword")
    	submit_btn=self.browser.find_element_by_id("ContentPlaceHolder1_btnSubmit")
-   	username.send_keys("kyler")
-   	password.send_keys("designer")
+   	username.send_keys("")
+   	password.send_keys("")
    	submit_btn.click()
 
     def tearDown(self):
